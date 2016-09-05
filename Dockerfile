@@ -9,5 +9,5 @@ MAINTAINER Vinod Singh <vinod.puchi@gmail.com>
 RUN mkdir mynewdir
 RUN touch /mynewdir/mynewfile
 # Write the message in file
-RUN echo 'this is my new container to make image and then push to hub' \
+RUN echo 'this is my new container to make image and then push to hub for docker 1.12.1' \
  >/mynewdir/mynewfile
